@@ -1,0 +1,16 @@
+.postsList {
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 865px;
+    
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    @media(min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

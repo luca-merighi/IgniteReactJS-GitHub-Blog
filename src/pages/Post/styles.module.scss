@@ -1,0 +1,34 @@
+.postContent {
+    margin-top: 2.5rem;
+    width: 100%;
+    max-width: 865px;
+    padding: 0 1rem;
+    
+    color: var(--base-200);
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--blue);
+    }
+    
+    ul {
+        list-style: inherit;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--blue);
+    }
+    
+    pre {
+        margin: 1rem 0;
+        background-color: var(--base-700);
+        padding: 1rem;
+        
+        border-radius: 6px;
+        
+        div {
+            padding: 0 !important;
+            background-color: transparent !important;
+        }
+    }
+}

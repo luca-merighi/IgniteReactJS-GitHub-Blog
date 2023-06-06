@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --base-50: #E7EDF4;
+    --base-100: #C4D4E3;
+    --base-200: #AFC2D4;
+    --base-300: #7B96B2;
+    --base-400: #3A536B;
+    --base-500: #1C2F41;
+    --base-600: #112131;
+    --base-700: #0B1B2B;
+    --base-800: #071422;
+    --base-900: #040F1A;
+    
+    --blue: #3294F8;
+}
+
+body {
+    background-color: var(--base-800);
+}
+
+body, input {
+    font-family: 'Nunito', sans-serif;
+}
